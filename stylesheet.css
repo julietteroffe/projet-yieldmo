@@ -1,0 +1,140 @@
+htlm, body{
+     margin: 0;
+     padding:0;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ 
+.header{
+    background-color: #ffffff;
+    height: 77px;
+    font-family: Helvetica;
+    overflow: hidden;
+}
+
+.header .menu{
+    float: right;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.header .logo{
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.header .logo img{
+    width: 150px;
+}
+
+.header .menu li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header .menu ul{
+    margin-left: 0;
+    -webkit-padding-start: 0;
+}
+
+.header .menu a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.header .menu a:hover{
+    background-color: #cccccc;
+}
+
+.header .menu li:last-child a{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    padding-top: 40px;
+    text-align: center;
+    background-color: #FFDB00;
+    height: 580px;
+}
+
+.content h1{
+    color: #ffffff;
+}
+
+.content .btn-return{
+    color: ffffff;
+    
+}
+
+.header{
+    background-color: #ffffff;
+    height: 60px;
+    width: 1196px;
+    font-family: Helvetica;
+    text-align: right;
+}
+
+.footer{
+    background-color: black;
+    width:100%;
+    color:#FFF;
+}
+
+.colonne-4{
+    width: 25%;
+    float:left;
+}
+
+.colonne-4 a{
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.colonne-4 p{
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.footer{
+    color:#fff;
+    background-color: #333;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.logo-footer{
+    margin-top:50px;
+    margin-left:10px;
+}
+
+.footer .social{
+    margin-left:0;
+    -webkit-padding-start:0;
+}
+
+.footer .social li{
+    display: inline;
+}
+
+.footer .social li img{
+    width:40px;
+}
+
